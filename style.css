@@ -1,0 +1,47 @@
+.paginaCapa{
+    background-image: url(/image/CAPA.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height:600px;
+    opacity: 0.7;
+   }
+
+h1{
+    padding-top: 250px;
+    text-align:right;
+    padding-right: 10%;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align:right;
+    padding-right: 25%;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#botãoDoeAgora{
+    border-style:solid;
+    border-radius: 40px;
+    border-color: #E8E8E8;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-left: 90%;
+    color: whitesmoke;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-container {
+    width: 70px;
+    height: 100%;
+    background-color: #E8E8E8;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
