@@ -1,27 +1,26 @@
 body{
     margin: 0px;
+    background-color: #E8E8E8;
 }
 .paginaCapa{
     background-image: url(/image/CAPA.jpg);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: scroll;
-    background-size: 95%;
+    background-size: 100%;
     height:600px;
     opacity: 0.7;
     }
 
 #tituloPagina1{
     padding-top: 275px;
-    text-align:right;
-    padding-right: 10%;
+    text-align: center;
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #subTituiloPagina1 {
-    text-align:right;
-    padding-right: 24%;
+    text-align:center;
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -36,16 +35,28 @@ body{
     padding: 0 20px;
     margin-left: 90%;
     margin-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.menu-container {
-    width: 70px;
-    height: 92%;
-    background-color: #E8E8E8;
-    position:absolute;
-    top: 0;
-    left: 0;
+  #fotoDois {
+    height: 40%;
+    width: 40%;
+    display: inline;
+   
   }
 
+  .tituloPaginas{
+    color: #40386D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+  }
+
+  .textoPaginas{
+    color: #40386D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    width: 400px;
+    height: 500px;
+    margin: 0%;
+    
+  }
 
